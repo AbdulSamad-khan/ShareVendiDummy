@@ -1,5 +1,6 @@
 export const addItemCart = item => {
   return {
+    // type: 'ADD_CART_ITEM',
     type: 'ADD_CART_ITEM',
     payload: item,
   };
